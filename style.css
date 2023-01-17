@@ -1,3 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.first-container {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
