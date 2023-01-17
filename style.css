@@ -8,20 +8,24 @@ body {
 .first-container {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
-    padding: 6px;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .right {
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .logo {
@@ -41,6 +45,18 @@ body {
     font-size: 18px;
     font-weight: 100;
     color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 img {
