@@ -59,17 +59,24 @@ a {
     font-size: 18px;
     font-weight: 100;
     color: #f9faf8;
+    padding-bottom: 8px;
 }
 
 button {
-    background-color: #3882f6;;
+    background-color: #3882f6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #3882f6;
+    color: #f9faf8;
 }
 
-img {
+.placeholder {
     width: 400px;
     height: 200px;
     background-color: gray;
-    flex-grow: 1;
     width: 50%;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
