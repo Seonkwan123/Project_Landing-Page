@@ -71,12 +71,13 @@ button {
 }
 
 .placeholder {
-    width: 400px;
-    height: 200px;
-    background-color: gray;
     width: 50%;
+    height: inherit;
+    background-color: gray;
     margin-left: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
