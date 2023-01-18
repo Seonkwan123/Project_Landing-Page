@@ -8,7 +8,7 @@ body {
 .first-container {
     background-color: #1F2937;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     /* justify-content: space-around; */
 }
 
@@ -21,14 +21,14 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 400;
- 
+    flex: 1;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
-    
+    flex: 1;
 }
 
 a {
@@ -39,6 +39,11 @@ a {
 
 .bottom {
     display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.hero {
 }
 
 .hero-title {
