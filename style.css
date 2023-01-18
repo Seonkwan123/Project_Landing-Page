@@ -9,26 +9,27 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+
 }
 
 .top {
     display: flex;
-    flex: 1;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 400;
-    flex: 1;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
-    flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -40,7 +41,7 @@ a {
 .bottom {
     display: flex;
     justify-content: center;
-    flex: 1;
+    
 }
 
 .hero {
