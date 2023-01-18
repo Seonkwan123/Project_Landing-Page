@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -45,6 +46,7 @@ a {
 
 .hero {
     width: 50%;
+    margin-right: 10px;
 }
 
 .hero-title {
@@ -59,7 +61,9 @@ a {
     color: #f9faf8;
 }
 
-
+button {
+    background-color: #3882f6;;
+}
 
 img {
     width: 400px;
@@ -67,4 +71,5 @@ img {
     background-color: gray;
     flex-grow: 1;
     width: 50%;
+    margin-left: 10px;
 }
