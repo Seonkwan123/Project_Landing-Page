@@ -166,4 +166,10 @@ font-size: 20px;
     height: 26px;
 }
 
-
+.footer {
+    background-color: #1F2937;
+    padding: 20px 0;
+    color: #f9faf8;
+    text-align: center;
+    font-weight: 100;
+}
